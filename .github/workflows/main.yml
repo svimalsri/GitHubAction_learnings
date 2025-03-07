@@ -1,0 +1,9 @@
+name: FIRST_WORKFLOW
+on: push
+jobs:
+   my_job:
+    name: deploy to staging
+    runs-on: ubuntu-latest
+    steps:
+      - name: my step
+        run: echo "Hello Github!"
