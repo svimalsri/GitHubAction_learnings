@@ -10,5 +10,5 @@ jobs:
      run: echo "The film stars Jai, Sathyaraj, Yogi Babu,Pragya Nagra and Sai Dhanyaa in the lead roles.Baby and Baby released in theatres on 14 February 2025."
           echo "File on directory"
           ls-l
-          echo "current date & time
+          echo "current date & time"
           date
