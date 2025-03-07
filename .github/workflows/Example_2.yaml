@@ -1,0 +1,14 @@
+name: Running a script
+on:
+  push:
+   branches: main
+jobs:
+ uses:
+  runs-on: ubuntu -latest
+  steps:
+   - name: run scripts
+     run: echo " The film stars Jai, Sathyaraj, Yogi Babu,Pragya Nagra and Sai Dhanyaa in the lead roles.Baby and Baby released in theatres on 14 February 2025. "
+          echo "File on directory "
+          ls-l
+          echo "current date & time
+          date
